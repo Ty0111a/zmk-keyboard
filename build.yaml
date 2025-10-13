@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrfmicro_11
+  - board: nrfmicro_14
     shield: corne_left
-  - board: nrfmicro_11
+  - board: nrfmicro_14
     shield: corne_right
