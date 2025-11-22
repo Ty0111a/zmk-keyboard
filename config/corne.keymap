@@ -12,6 +12,66 @@
     combos {
         compatible = "zmk,combos";
 
+                num4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 3 37>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <28 27 37>;
+        };
+
+        clear_bt_profile {
+            bindings = <&bt BT_CLR>;
+            key-positions = <16 15 37>;
+        };
+
+        num7 {
+            bindings = <&kp N7>;
+            key-positions = <7 8 37>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <31 32 37>;
+        };
+
+        arrow_left {
+            bindings = <&kp LEFT>;
+            key-positions = <19 20 37>;
+        };
+
+        dllr {
+            bindings = <&kp DLLR>;
+            key-positions = <40 4 3>;
+        };
+
+        amps {
+            bindings = <&kp AMPS>;
+            key-positions = <7 8 40>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <19 20 40>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <31 32 40>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <22 21 40>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <34 33 40>;
+        };
+
         tog_special_layer {
             bindings = <&mo 0>;
             key-positions = <37 40>;
@@ -75,66 +135,6 @@
         dot {
             bindings = <&kp DOT>;
             key-positions = <33 32>;
-        };
-
-        num4 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <4 3 37>;
-        };
-
-        f4 {
-            bindings = <&kp F4>;
-            key-positions = <28 27 37>;
-        };
-
-        clear_bt_profile {
-            bindings = <&bt BT_CLR>;
-            key-positions = <16 15 37>;
-        };
-
-        num7 {
-            bindings = <&kp N7>;
-            key-positions = <7 8 37>;
-        };
-
-        f7 {
-            bindings = <&kp F7>;
-            key-positions = <31 32 37>;
-        };
-
-        arrow_left {
-            bindings = <&kp LEFT>;
-            key-positions = <19 20 37>;
-        };
-
-        dllr {
-            bindings = <&kp DLLR>;
-            key-positions = <40 4 3>;
-        };
-
-        amps {
-            bindings = <&kp AMPS>;
-            key-positions = <7 8 40>;
-        };
-
-        equals {
-            bindings = <&kp EQUAL>;
-            key-positions = <19 20 40>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <31 32 40>;
-        };
-
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <22 21 40>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <34 33>;
         };
     };
 
