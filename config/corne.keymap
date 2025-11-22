@@ -76,6 +76,66 @@
             bindings = <&kp DOT>;
             key-positions = <33 32>;
         };
+
+        num4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 3 37>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <28 27 37>;
+        };
+
+        clear_bt_profile {
+            bindings = <&bt BT_CLR>;
+            key-positions = <16 15 37>;
+        };
+
+        num7 {
+            bindings = <&kp N7>;
+            key-positions = <7 8 37>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <31 32 37>;
+        };
+
+        arrow_left {
+            bindings = <&kp LEFT>;
+            key-positions = <19 20 37>;
+        };
+
+        dllr {
+            bindings = <&kp DLLR>;
+            key-positions = <40 4 3>;
+        };
+
+        amps {
+            bindings = <&kp AMPS>;
+            key-positions = <7 8 40>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <19 20 40>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <31 32 40>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <22 21 40>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <34 33>;
+        };
     };
 
     keymap {
@@ -108,10 +168,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0      &trans
-&trans     &trans  &trans  &trans    &trans  &trans       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &bt BT_CLR  &bt BT_NXT
-&kp LSHFT  &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp F6    &kp F7    &kp F7    &kp F9     &kp F10     &bt BT_PRV
-                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&trans  &kp N1  &kp N2  &kp N3      &kp N5      &trans       &trans   &kp NUMBER_6  &kp N8    &kp N9     &kp N0   &trans
+&trans  &trans  &trans  &bt BT_PRV  &bt BT_NXT  &trans       &trans   &kp DOWN      &kp UP    &kp RIGHT  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3      &kp F5      &trans       &trans   &kp F6        &kp F7    &kp F9     &kp F10  &trans
+                        &kp LGUI    &trans      &kp SPACE    &kp RET  &trans        &kp RALT
             >;
         };
 
@@ -125,10 +185,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT   &kp HASH  &kp DLLR           &kp PRCNT               &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&kp LCTRL  &trans    &trans   &trans    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp F11   &kp F12  &trans    &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                              &kp LGUI  &trans             &kp SPACE               &kp RET    &trans     &kp RALT
+&trans  &kp EXCL  &kp AT   &kp HASH              &kp PERCENT        &trans       &trans   &kp CARET  &kp ASTRK  &kp LPAR  &kp RPAR   &trans
+&trans  &trans    &trans   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &trans       &trans   &kp MINUS  &kp LBKT   &kp RBKT  &kp GRAVE  &trans
+&trans  &kp F11   &kp F12  &kp C_BRI_DEC         &kp C_VOLUME_DOWN  &trans       &trans   &kp UNDER  &kp LBRC   &kp RBRC  &kp TILDE  &trans
+                           &kp LGUI              &trans             &kp SPACE    &kp RET  &trans     &kp RALT
             >;
         };
     };
